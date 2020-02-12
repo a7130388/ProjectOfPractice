@@ -1,0 +1,15 @@
+UPDATE DBXX.DTXXQK02
+   SET KPI_NAME = ':KPI_NAME',
+	   STD_LOW = ':STD_LOW',
+       STD_UP = ':STD_UP',
+	   UNIT = ':UNIT',
+       PERIOD = ':PERIOD',
+       JUDGE = ':JUDGE',
+       ACORD_ID = ':ACORD_ID',
+	   TYPE = ':TYPE',
+       MODULE_CLASS = ':MODULE_CLASS',
+       MODULE_METHOD = ':MODULE_METHOD',
+       MODULE_PARAM = ':MODULE_PARAM',
+       UPDT_ID = ':UPDT_ID',
+       UPDT_DATE = ':UPDT_DATE'   
+ WHERE TYPE_ID = ':TYPE_ID' AND KPI_ID = ':KPI_ID'

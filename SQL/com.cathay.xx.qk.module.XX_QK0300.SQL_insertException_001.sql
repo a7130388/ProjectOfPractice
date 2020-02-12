@@ -1,0 +1,16 @@
+INSERT INTO DBXX.DTXXQK05 (EMP_ID,
+                           EXC_DATE,
+                           EXC_HOURS,
+                           MEMO,
+                           DIV_NO,
+                           UPDT_ID,
+                           UPDT_DATE,
+                           EMP_NM)
+VALUES (':EMP_ID',
+        ':EXC_DATE',
+        ':EXC_HOURS',
+        ':MEMO',
+        ':DIV_NO',
+        ':UPDT_ID',
+        ':UPDT_DATE',
+        ':EMP_NM')
